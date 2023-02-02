@@ -1,6 +1,6 @@
 #Author JS Lab 11-3 2/1/2023
 
-#1
+#1                                                              15+
 def add_foods(foods):
     sixth_letter = []
     not_foods = []
@@ -19,7 +19,7 @@ def add_foods(foods):
     print("Not Foods:", str(not_foods))
     print("Short Foods:", str(short_foods))
 
-#2
+#2                                                               #Function
 def add_nums(numbers):
     while True:
         user_input = input("Enter a number: ")
@@ -38,6 +38,11 @@ def add_nums(numbers):
         return [str(index) + ": " + name for index, name in enumerate(names_list)]
 
 #4 
-def add_numbers(num1, num2):
+def add_numbers():
+    num1 = input("Please input a number: ")
+    num2 = input("Please input another number: ")
     sum = num1 + num2
+
     return sum
+
+#5
